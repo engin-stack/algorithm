@@ -5,8 +5,9 @@ class CoinChangeIssueTest {
 
   private final CoinChangeIssue o = new CoinChangeIssue();
 
+
   @Test
-  void coinChange1() {
+  void coinChange() {
     int[] coins = new int[3];
     coins[0] = 1;
     coins[1] = 2;
@@ -15,8 +16,10 @@ class CoinChangeIssueTest {
     Assertions.assertEquals(3, result);
   }
 
+
+
   @Test
-  void coinChange2() {
+  void coinChange1() {
     int[] coins = new int[3];
     coins[0] = 1;
     coins[1] = 2;
@@ -26,7 +29,7 @@ class CoinChangeIssueTest {
   }
 
   @Test
-  void coinChange3() {
+  void coinChange2() {
     int[] coins = new int[3];
     coins[0] = 1;
     coins[1] = 2;
