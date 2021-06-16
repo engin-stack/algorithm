@@ -1,4 +1,3 @@
-import java.util.Collections;
 import java.util.HashMap;
 
 public class CoinChangeIssue {
@@ -33,7 +32,6 @@ public class CoinChangeIssue {
     }
     return result;
   }
-
 
   public int coinChange1(int[] coins, int amount) {
     if (amount < 0) {
